@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({
 }))
 app.use(cors())
 app.use(bodyParser.json())
-mongoose.connect("mongodb+srv://ajaynagaraju32:ajaynag833@codegnan.isbtslh.mongodb.net/firstdb?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://ajaynagaraju32:<pwd to be replaced here>@codegnan.isbtslh.mongodb.net/firstdb?retryWrites=true&w=majority")
     .then(() => {
         console.log("MongoDB Connected Successfully")
     })
